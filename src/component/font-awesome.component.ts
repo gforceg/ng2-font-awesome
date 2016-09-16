@@ -12,9 +12,13 @@ export class FontAwesomeComponent implements OnInit {
   ngOnInit() {
     // add 'fa-' to the faIcon if it isn't already present
     if (this.faIcon) {
-      if (!this.faIcon.match(/^fa\-/i)) { this.faIcon = 'fa-' + this.faIcon; }
-      if (!this.faIcon.match(/fa /i)) { this.faIcon = 'fa ' + this.faIcon; }
+      // if they didn't provide something like this: 'fa fa-cubes', fix it for them.
+      if (!this.faIcon.match(/^\s?fa fa\-/i)) {
+        if (!this.faIcon.match(/^fa\-/i)) { this.faIcon = 'fa-' + this.faIcon; }
+        if (!this.faIcon.match(/^fa /i)) { this.faIcon = 'fa ' + this.faIcon; }
+      }
     }
+    console.log(this.faIcon);
   }
 }
 

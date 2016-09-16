@@ -1,7 +1,7 @@
     import {NgModule} from '@angular/core';
     import {CommonModule} from '@angular/common';
     
-    import {FontAwesomeComponent } from './font-awesome.component';
+    import {FontAwesomeComponent } from './component/font-awesome.component';
 
     @NgModule({
         imports: [CommonModule],

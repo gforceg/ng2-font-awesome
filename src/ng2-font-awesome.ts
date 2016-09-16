@@ -1,2 +1,2 @@
-export * from './font-awesome.component';
+export * from './component/font-awesome.component';
 export * from './font-awesome.module';

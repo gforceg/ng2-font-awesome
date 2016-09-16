@@ -1,0 +1,18 @@
+# ng2-font-awesome
+
+a reusable font-awesome span
+
+## usage
+
+the following usages all will do fine:
+
+```html
+<font-awesome [faIcon]="'fa fa-cubes'"></font-awesome>
+<font-awesome [faIcon]="'fa-cubes'"></font-awesome>
+<font-awesome [faIcon]="'cubes'"></font-awesome>
+```
+
+output:
+
+[!output](https://github.com/gforceg/ng2-font-awesome/screen-shot.png "output")
+
