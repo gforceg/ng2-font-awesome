@@ -14,5 +14,5 @@ the following usages all will do fine:
 
 output:
 
-![alt text](https://github.com/gforceg/ng2-font-awesome/screen-shot.png)
+![alt text](https://github.com/gforceg/ng2-font-awesome/raw/master/screen-shot.png)
 
