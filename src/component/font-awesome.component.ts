@@ -18,7 +18,6 @@ export class FontAwesomeComponent implements OnInit {
         if (!this.faIcon.match(/^fa /i)) { this.faIcon = 'fa ' + this.faIcon; }
       }
     }
-    console.log(this.faIcon);
   }
 }
 
