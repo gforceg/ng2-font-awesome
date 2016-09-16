@@ -1,0 +1,28 @@
+{
+  "name": "ng2-font-awesome",
+  "version": "1.0.0",
+  "description": "a font-awesome span component",
+  "main": "dist/ng2-font-awesome.js",
+  "module": "dist/ng2-font-awesome.js",
+  "typings": "dist/ng2-font-awesome.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gforceg/ng2-font-awesome.git"
+  },
+  "author": "Greg Hedin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gforceg/ng2-font-awesome/issues"
+  },
+  "homepage": "https://github.com/gforceg/ng2-font-awesome#readme",
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "es6-shim": "^0.35.1",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.23"
+  }
+}
