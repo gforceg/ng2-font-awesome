@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 @Component({
-  moduleId: module.id,
+  // moduleId: module.id,
   selector: 'font-awesome',
   template: `
 <span *ngIf="faIcon" [class]="faIcon" aria-hidden="true"></span>
