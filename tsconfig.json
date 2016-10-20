@@ -6,12 +6,9 @@
         "sourceMap": false,
         "declaration": true,
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "outDir": "dist",
-        "rootDir": "src"
+        "experimentalDecorators": true
     },
-    "exclude": [
-        "node_modules",
-        "dist"
+    "files": [
+        "ng2-font-awesome.ts"
     ]
 }
