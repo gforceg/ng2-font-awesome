@@ -2,3 +2,5 @@ src
 .vscode
 *.ts
 !*.d.ts
+gulp-tasks/
+.vscode/
