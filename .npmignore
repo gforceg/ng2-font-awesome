@@ -4,3 +4,6 @@ src
 !*.d.ts
 gulp-tasks/
 .vscode/
+*.html
+*.css
+*.scss
