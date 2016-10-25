@@ -1,1 +1,0 @@
-{"version":3,"names":[],"mappings":"","sources":["ng2-font-awesome.js"],"sourcesContent":["export * from './component/font-awesome.component';\nexport * from './font-awesome.module';\n//# sourceMappingURL=ng2-font-awesome.js.map"],"file":"ng2-font-awesome.js"}
