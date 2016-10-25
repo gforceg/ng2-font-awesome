@@ -18,7 +18,6 @@
     "ng2-font-awesome.ts"
   ],
   "angularCompilerOptions": {
-    "genDir": "aot",
-    "skipMetadataEmit": true
+    "genDir": "aot"
   }
 }
