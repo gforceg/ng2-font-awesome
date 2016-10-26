@@ -10,3 +10,4 @@ dist
 aot/
 ng2-font-awesome/
 tmp/
+npm-debug.log

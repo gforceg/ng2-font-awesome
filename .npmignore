@@ -8,3 +8,4 @@ gulp-tasks/
 *.scss
 src/
 tmp/
+npm-debug.log
