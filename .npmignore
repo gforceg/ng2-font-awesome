@@ -1,9 +1,10 @@
-src
-.vscode
+.vscode/
 *.ts
 !*.d.ts
+!aot/*
 gulp-tasks/
-.vscode/
 *.html
 *.css
 *.scss
+src/
+tmp/
