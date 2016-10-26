@@ -2,13 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   // moduleId: module.id,
   selector: 'font-awesome',
-  template: `
-    <span *ngIf="faIcon" [class]="faIcon" aria-hidden="true"></span>
-  `,
-  styles: [`
-    /* fixme: remove this temporary style */
-    a { color: deeppink; background-color: black; }
-  `]
+  templateUrl: 'font-awesome.component.html',
+  styleUrls: ['font-awesome.component.css']
 })
 export class FontAwesomeComponent implements OnInit {
   private _faIcon: string // font awesome icons

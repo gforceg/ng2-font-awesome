@@ -1,23 +1,22 @@
 {
-  "compilerOptions": {
-    "declaration": true,
-    "stripInternal": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "module": "es2015",
-    "moduleResolution": "node",
-    "noEmitOnError": false,
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noImplicitReturns": true,
-    "sourceMap": true,
-    "target": "es5"
-  },
-  "files": [
-    "ng2-font-awesome/font-awesome.module.ts",
-    "ng2-font-awesome.ts"
-  ],
-  "angularCompilerOptions": {
-    "genDir": "aot"
-  }
+	"compilerOptions": {
+		"declaration": true,
+		"stripInternal": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"module": "es2015",
+		"moduleResolution": "node",
+		"noEmitOnError": false,
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noImplicitReturns": true,
+		"sourceMap": true,
+		"target": "es5"
+	},
+	"files": [
+		"ng2-font-awesome.ts"
+	],
+	"angularCompilerOptions": {
+		"genDir": "aot"
+	}
 }

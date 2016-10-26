@@ -1,1 +1,1 @@
-export * from './ng2-font-awesome/ng2-font-awesome';
+export * from './ng2-font-awesome/index';
