@@ -1,7 +1,7 @@
 .vscode/
 *.ts
 !*.d.ts
-!aot/*
+!aot/**/*
 gulp-tasks/
 *.html
 *.css
