@@ -6,6 +6,8 @@
   "module": "./ng2-font-awesome.js",
   "typings": "./ng2-font-awesome.d.ts",
   "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,6 +33,7 @@
     "@angular/core": "2.1.0",
     "@types/es6-shim": "^0.31.32",
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
     "gulp-cli": "^1.2.2",
     "gulp-inline-ng2-template": "^3.0.1",
     "gulp-sass": "^2.3.2",

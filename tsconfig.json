@@ -8,6 +8,9 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true
     },
+	"exclude": [
+		"node_modules"
+	],
     "files": [
         "ng2-font-awesome.ts"
     ]
