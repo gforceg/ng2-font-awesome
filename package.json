@@ -1,6 +1,6 @@
 {
   "name": "ng2-font-awesome",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "a font-awesome span component",
   "main": "./ng2-font-awesome.js",
   "module": "./ng2-font-awesome.js",
