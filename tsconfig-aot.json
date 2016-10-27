@@ -16,7 +16,5 @@
 	"files": [
 		"ng2-font-awesome.ts"
 	],
-	"angularCompilerOptions": {
-		"genDir": "aot"
-	}
+	"angularCompilerOptions": {}
 }
