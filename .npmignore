@@ -8,3 +8,5 @@ gulp-tasks/
 src/
 tmp/
 npm-debug.log
+.config/
+aot/
