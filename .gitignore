@@ -5,6 +5,7 @@ dist
 *.js.map
 *.d.ts
 !gulpfile.js
+!bundlefile.js
 !gulp-tasks/*.js
 *.metadata.json
 aot/
