@@ -6,7 +6,7 @@ gulp-tasks/
 *.css
 *.scss
 src/
-tmp/
-npm-debug.log
+.tmp/
 .config/
 aot/
+ngfactory/
