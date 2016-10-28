@@ -2,7 +2,7 @@ let gulp = require('gulp');
 let gutil = require('gulp-util');
 let join = require('path').join;
 let fs = require('fs');
-let config = require('../tasks-config.js');
+let config = require('../.config/tasks-config.js');
 let aotConfig = require('../tsconfig-aot.json');
 
 gulp.task('set build vars', () => {
@@ -26,7 +26,7 @@ gulp.task('set build vars', () => {
     if (line === `${config.OUT_DIR}/`) { already_ignored = true; }
   });
 
-  if (!already_ignored) { gitignoreBuffer.push(`${config.OUT_DIR}/`); }
+  if (!already_ignored) { gitignoreBuffer.push(`${config.OUT_DIR}/\n`); }
 
   gitignoreBuffer = gitignoreBuffer.join('\n');
   return fs.writeFileSync('.gitignore', gitignoreBuffer);
