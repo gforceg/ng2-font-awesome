@@ -6,9 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['font-awesome.component.css']
 })
 export class FontAwesomeComponent implements OnInit {
-  // @Input() faIcon: string;
-  // the following is commented out while I troubleshoot AoT...
-  // but I believe properties are still acceptable for static analysis...
+
   private _faIcon: string // font awesome icons
   @Input() set faIcon(icon: string) {
     // sanitize the icon each time it is set.
