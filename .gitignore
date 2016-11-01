@@ -1,5 +1,4 @@
 node_modules
-.vscode/
 dist
 *.js
 *.js.map
@@ -8,9 +7,10 @@ dist
 !bundlefile.js
 !gulp-tasks/*.js
 *.metadata.json
+TODO.md
 aot/
 ng2-font-awesome/
-tmp/
+.tmp/
+bundles/
 npm-debug.log
-TODO.md
-bundles/.tmp/
+.vscode/
