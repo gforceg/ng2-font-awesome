@@ -7,7 +7,9 @@ src/
 aot/
 ngfactory/
 bundlefile.js
-gulpfile.jstasks-config.json
+gulpfile.js
+tasks-config.json
+TODO.md
 tsconfig.json
 tsconfig-aot.json
 *.html

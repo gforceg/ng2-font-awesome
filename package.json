@@ -1,9 +1,9 @@
 {
   "name": "ng2-font-awesome",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "a font-awesome span component",
-  "main": "./ng2-font-awesome.js",
-  "module": "./ng2-font-awesome.js",
+  "main": "bundles/ng2-font-awesome.umd.js",
+  "module": "ng2-font-awesome.js",
   "typings": "./ng2-font-awesome.d.ts",
   "scripts": {
     "clean": "gulp clean",
