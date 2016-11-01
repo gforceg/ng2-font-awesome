@@ -12,8 +12,6 @@ function getBuildConfig() {
     transpiler: 'typescript',
     map: {
       '@angular': 'node_modules/@angular',
-      'ts-clipboard': 'node_modules/ts-clipboard',
-      'ng2-font-awesome': 'node_modules/ng2-font-awesome',
       'typescript': 'node_modules/typescript/lib/typescript'
     },
     paths: {
