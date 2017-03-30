@@ -1,2 +1,3 @@
-export * from './component/font-awesome.component';
-export * from './font-awesome.module';
+export { FontAwesomeModule } from './font-awesome.module';
+export { FontAwesomeComponent } from './component/font-awesome.component';
+
