@@ -3,7 +3,7 @@
 	"version": "1.0.28",
 	"description": "a font-awesome span component",
 	"main": "bundles/ng2-font-awesome.umd.js",
-	"module": "ng2-font-awesome.js",
+	"module": "index.js",
 	"typings": "index.d.ts",
 	"scripts": {
 		"clean": "gulp clean",
