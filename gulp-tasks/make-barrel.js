@@ -5,6 +5,7 @@ let posixJoin = require('path').posix.join;
 let fs = require('fs');
 let config = require('../config/tasks-config.js');
 
+// todo: take src/index.ts and copy its contents then prepend './${config.proj.name}' to each exported path
 gulp.task('make barrel', () => {
   let barrelFilename = `${config.package_config.name}.ts`;
   let exportPath = posixJoin('./', config.OUT_DIR, 'index');
