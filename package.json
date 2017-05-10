@@ -1,52 +1,52 @@
 {
-	"name": "ng2-font-awesome",
-	"version": "1.0.27",
-	"description": "a font-awesome span component",
-	"main": "bundles/ng2-font-awesome.umd.js",
-	"module": "ng2-font-awesome.js",
-	"typings": "ng2-font-awesome.d.ts",
-	"scripts": {
-		"clean": "gulp clean",
-		"build": "gulp",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/gforceg/ng2-font-awesome.git"
-	},
-	"author": "Greg Hedin",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/gforceg/ng2-font-awesome/issues"
-	},
-	"homepage": "https://github.com/gforceg/ng2-font-awesome#readme",
-	"peerDependencies": {
-		"@angular/common": "^4.0.0",
-		"@angular/core": "^4.0.0",
-		"rxjs": "^5.0.1",
-		"zone.js": "^0.8.4"
-	},
-	"devDependencies": {
-		"@angular/common": "^4.0.0",
-		"@angular/compiler": "^4.0.0",
-		"@angular/compiler-cli": "^4.0.0",
-		"@angular/core": "^4.0.0",
-		"del": "^2.2.2",
-		"gulp": "^3.9.1",
-		"gulp-clean": "^0.3.2",
-		"gulp-cli": "^1.2.2",
-		"gulp-inline-ng2-template": "^3.0.1",
-		"gulp-sass": "^2.3.2",
-		"gulp-sourcemaps": "^2.2.0",
-		"gulp-todo": "^5.0.0",
-		"gulp-typescript": "^3.0.2",
-		"gulp-util": "^3.0.7",
-		"require-dir": "^0.3.1",
-		"run-sequence": "^1.2.2",
-		"rxjs": "^5.0.1",
-		"systemjs-builder": "^0.15.33",
-		"tslint": "^3.15.1",
-		"typescript": "^2.1.5",
-		"zone.js": "^0.8.4"
-	}
+  "name": "ng2-font-awesome",
+  "version": "1.0.28",
+  "description": "a font-awesome span component",
+  "main": "bundles/ng2-font-awesome.umd.js",
+  "module": "ng2-font-awesome.js",
+  "typings": "ng2-font-awesome.d.ts",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gforceg/ng2-font-awesome.git"
+  },
+  "author": "Greg Hedin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gforceg/ng2-font-awesome/issues"
+  },
+  "homepage": "https://github.com/gforceg/ng2-font-awesome#readme",
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-inline-ng2-template": "^3.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-todo": "^5.0.0",
+    "gulp-typescript": "^3.0.2",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "rxjs": "^5.0.1",
+    "systemjs-builder": "^0.15.33",
+    "tslint": "^3.15.1",
+    "typescript": "^2.1.5",
+    "zone.js": "^0.8.4"
+  }
 }
