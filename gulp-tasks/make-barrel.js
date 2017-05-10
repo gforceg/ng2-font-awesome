@@ -5,11 +5,15 @@ let posixJoin = require('path').posix.join;
 let fs = require('fs');
 let config = require('../config/tasks-config.js');
 
-// todo: take src/index.ts and copy its contents then prepend './${config.proj.name}' to each exported path
 gulp.task('make barrel', () => {
-  let barrelFilename = `${config.package_config.name}.ts`;
-  let exportPath = posixJoin('./', config.OUT_DIR, 'index');
+  let exportPath = posixJoin('./', config.OUT_DIR, config.barrel_file_name);
   let buffer = `export * from './${exportPath}';`;
 
-  return fs.writeFileSync(join('.', barrelFilename), buffer);
+  try {
+  let srcBarrelBuffer = fs.readFileSync('src/index.ts', 'utf8')
+  let buffer = srcBarrelBuffer.replace(/'\.\/(.+)'/gi, `'./${config.package_config.name}/$1'`)
+  return fs.writeFileSync(join('.', `${config.barrel_file_name}.ts`), buffer);
+  } catch(ex) {
+    throw ex
+  }
 });

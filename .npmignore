@@ -17,3 +17,7 @@ tsconfig-aot.json
 *.scss
 *.ts
 !*.d.ts
+node_modules/
+config/
+.npmignore
+.gitignore

@@ -9,7 +9,7 @@ gulp.task('build', (done) => {
   runSequence(
     'to-do',
     'set build vars',
-    // 'make barrel',
+    'make barrel',
     'copy',
     'sass',
     'inline',
@@ -25,7 +25,7 @@ gulp.task('default', (done) => {
   runSequence(
     'to-do',
     'set build vars',
-    // 'make barrel',
+    'make barrel',
     'copy',
     'sass',
     'inline',

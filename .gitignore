@@ -5,7 +5,7 @@ dist
 *.d.ts
 !gulpfile.js
 !bundlefile.js
-!gulp-tasks/*.js
+!gulp-tasks/**/*.js
 *.metadata.json
 TODO.md
 aot/
@@ -15,3 +15,7 @@ bundles/
 npm-debug.log
 .vscode/
 ngfactory/
+!tasks-config.js
+.tmp/
+npm-debug.log*
+bundles/
